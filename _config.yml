@@ -153,11 +153,11 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
-                  background-image: url(https://Mizuno-Ai.wu-kan.cn/pixiv/74559485_p1.webp);
+                  background-image: url(/assets/image/234750-158921207008d8.jpg);
                 }
                 @media (min-aspect-ratio: 2400/1850) {
                   .wrap {
-                    background-image: url(https://Mizuno-Ai.wu-kan.cn/pixiv/71932901_p0.webp);
+                    background-image: url(/assets/image/234750-158921207008d8.jpg);
                   }
                 }
                 .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
