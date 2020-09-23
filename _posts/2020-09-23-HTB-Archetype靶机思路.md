@@ -100,6 +100,7 @@ grammar_cjkRuby: true
 `python mssqlclient.py ARCHETYPE/sql_svc@10.10.10.27 -windows-auth`
 
 ![](https://raw.githubusercontent.com/MrHatSec/MrHatSec.github.io/assets/MrHat/1600847571370.png)
+
 **`注意这个斜杠 文档复制出来的是 “\” 这个，但是不行 必须要 “/”这个斜杠才可以`**
 
 成功连接 Sql Server，然后执行 sql 语句
