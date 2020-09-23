@@ -62,6 +62,7 @@ grammar_cjkRuby: true
 ## 漏洞利用
 
 >445 文件共享（SMB）
+>
 >1433  SQL Server相关联
 
 先看一下445端口的SMB是否允许匿名访问
