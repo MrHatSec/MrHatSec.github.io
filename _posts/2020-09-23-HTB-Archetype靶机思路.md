@@ -72,6 +72,7 @@ grammar_cjkRuby: true
 
 `backups` 目录 一般来说是备份目录
 连接一下 `backups` 目录，然后 `dir` 查看一下目录下的文件
+
 `smbclient -N -L \\\\10.10.10.27\\backups`
 
 ![](https://raw.githubusercontent.com/MrHatSec/MrHatSec.github.io/assets/MrHat/1600847147868.png)
