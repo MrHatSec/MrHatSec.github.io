@@ -125,6 +125,9 @@ Payload产生的过程：
 反弹成功<br>
 ![enter description here](https://raw.githubusercontent.com/MrHatSec/MrHatSec.github.io/assets/MrHat/1607527239304.png)
 
+#### 关闭docker靶场环境
 
+复现完成之后，我们利用命令 `docker-compose down`来停止靶场<br>
+![enter description here](https://raw.githubusercontent.com/MrHatSec/MrHatSec.github.io/assets/MrHat/1607527563075.png)
 
 
